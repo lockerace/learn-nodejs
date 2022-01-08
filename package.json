@@ -1,0 +1,28 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "knex init",
+    "start": "node index.js",
+    "install:db": "knex migrate:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockerace/learn-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lockerace/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/lockerace/learn-nodejs#readme",
+  "dependencies": {
+    "knex": "^0.95.15",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "tedious": "^14.0.0"
+  }
+}
